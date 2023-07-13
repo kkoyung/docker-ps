@@ -8,7 +8,16 @@ This is my custom-formatted `docker ps` command. It simply calls `docker ps` com
 - Container status
 - Exposed and published ports
 
-## Example
+## Build
+
+```bash
+$ cargo build --release
+# Executable is built at target/release/docker-ps
+```
+
+## Usage
+
+Example:
 
 ```plain
 $ docker-ps
